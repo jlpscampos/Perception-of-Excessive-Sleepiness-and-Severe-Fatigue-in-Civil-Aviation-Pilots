@@ -52,4 +52,4 @@ The first equation represents the level 1 of the chosen model. Both, the second 
 
 ## References
 
-This case study is a reformulation of a consultancy provided by the owner of the repository to the Public Health Faculty of the University of São Paulo through the Center for Applied Statistics of the University of São Paulo and can be accessed at [Repositorio USP](https://repositorio.usp.br/item/003118043)
+This case study is a reformulation of a consultancy provided by the owner of the repository to the Public Health Faculty of the University of São Paulo through the [Center for Applied Statistics of the University of São Paulo](https://www.ime.usp.br/cea/) and can be accessed at [Repositorio USP](https://repositorio.usp.br/item/003118043)
