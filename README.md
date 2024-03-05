@@ -11,12 +11,14 @@ This repository includes:
 * Analysis: Reports and documentation detailing the methodology, results, and conclusions.
 * Jupyter Notebooks: Interactive python Markdown documents for exploring the data and results.
 
-This project aims to contribute to the understanding of pilot fatigue and inform interventions and regulations to improve pilot well-being in civil aviation.
+The Jupyter Notebooks follows the order:
 
 * Data preparation, feature extratction and data cleaning [feature_engineering.ipynb](feature_engineering.ipynb)
 * Exploratory Data Analysis [EDA.ipynb](EDA.ipynb)
 * Results related to perception of sleepiness [regression_sleepiness.ipynb](regression_sleepiness.ipynb)
 * Results related to perception of fatigue [regression_fatigue.ipynb](regression_fatigue.ipynb)
+
+This project aims to contribute to the understanding of pilot fatigue and inform interventions and regulations to improve pilot well-being in civil aviation.
 
 ---
 
