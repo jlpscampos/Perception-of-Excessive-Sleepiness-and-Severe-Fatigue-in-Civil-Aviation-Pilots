@@ -26,4 +26,4 @@ Over recent decades, growing concerns about labor-life quality and health have i
 
 ## Main Results
 
-
+![Figure](figures/fig_resultado.png)
