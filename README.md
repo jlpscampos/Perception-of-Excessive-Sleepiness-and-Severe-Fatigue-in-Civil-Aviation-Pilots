@@ -47,3 +47,9 @@ $$\ \beta_{0ij} = \beta_0 + \alpha_i + \tau_j$$
 $$\ \beta_{1j} = \beta_1 + \gamma_j$$
 
 The first equation represents the level 1 of the chosen model. Both, the second and third equations represent the level 2 of the model representing the random intercept term and the random slope term resepctively. $\alpha_{i} \sim N(0,\sigma_{\alpha}^2)$ represents the random intercept due to participant cluster, $\tau_{j} \sim N(0,\sigma_{\tau}^2)$ represents the random intercept due to work-shifts or time the participant filled KSS and SPS scales and $\gamma_{j} \sim N(0,\sigma_{\gamma}^2)$, represents the random slope due to work-shifts, with $\tau_{j} \perp \gamma_{j}$. 
+
+---
+
+## References
+
+This case study is a reformulation of a consultancy provided by the owner of the repository to the Public Health Faculty of the University of São Paulo through the Center for Applied Statistics of the University of São Paulo and can be accessed at [Repositorio USP](https://repositorio.usp.br/item/003118043)
