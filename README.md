@@ -32,6 +32,26 @@ Over recent decades, growing concerns about labour-life quality and health have 
 
 ![Figure](figures/fig_resultado.png)
 
+### For Time-variant covariates
+
+* The odds of perception of excessive (severe) sleepiness (fatigue) at the **middle of workloads** are 2.41 (2.07) times higher than at the start of workloads, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) at the **end of workloads** are 8.18 (5.22) times higher than at the start of workloads, with all other covariates held constant;
+
+<br/>
+
+* The odds of perception of excessive (severe) sleepiness (fatigue) in **early-mornings** are 2.12 (1.50) times higher than in afternoons (afternons and mornings), with all other covariates held constant;
+* The odds of perception of excessive sleepiness in **mornings** are 1.36 times higher than in afternoons, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) in **evenings** are 1.58 (1.38) times higher than in afternoons (afternoons and mornings), with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) in **nights** are 4.23 (2.60) times higher than in afternoons (afternoons and mornings), with all other covariates held constant.
+
+<br/>
+
+* For **workload duration**, there is an 6% [OR=1.06] (9% [OR=1.09]) increase in the odds of perception excessive (severe) sleepiness (fatigue) in individuals that works 1 hour more compared to any workload duration baseline, with all other covariates held constant;
+* For **time awake before the workload**, there is an 7% [OR=1.07] (4% [OR=1.04]) increase in the odds of perception excessive (severe) sleepiness (fatigue) in individuals that were 1 hour awake before workload compared to any time awake before workload baseline, with all other covariates held constant;
+* For **travel time home to work**, there is an 26% [OR=1.26] (16% [OR=1.16]) increase in the odds of perception excessive (severe) sleepiness (fatigue) in individuals that take 1 hour more to travel from home to work compared to any travel time home to work baseline, with all other covariates held constant;
+* For **flight hours**, there is an 9% [OR=1.09] (8% [OR=1.08]) increase in the odds of perception excessive (severe) sleepiness (fatigue) in individuals with 1,000 more flight hours compared to any flight hours baseline, with all other covariates held constant;
+* For **sleep duration before the workload**, there is an 22% [OR=1.22] (13% [OR=1.13]) increase in the odds of perceiving excessive (severe) sleepiness (fatigue) in individuals who slept 1 hour less compared to any sleep duration baseline, with all other covariates held constant.
+
 ---
 
 ## Model Description
