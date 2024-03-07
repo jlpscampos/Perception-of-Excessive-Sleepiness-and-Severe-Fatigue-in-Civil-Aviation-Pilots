@@ -32,17 +32,17 @@ Over recent decades, growing concerns about labour-life quality and health have 
 
 ![Figure](figures/fig_resultado.png)
 
-### For Time-variant covariates
+### For time-variant covariates
 
-* The odds of perception of excessive (severe) sleepiness (fatigue) at the **middle of workloads** are 2.41 (2.07) times higher than at the start of workloads, with all other covariates held constant;
-* The odds of perception of excessive (severe) sleepiness (fatigue) at the **end of workloads** are 8.18 (5.22) times higher than at the start of workloads, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) at the **middle of workloads** are 2.41 (2.07) times higher than at the **start of workloads**, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) at the **end of workloads** are 8.18 (5.22) times higher than at the **start of workloads**, with all other covariates held constant;
 
 <br/>
 
-* The odds of perception of excessive (severe) sleepiness (fatigue) in **early-mornings** are 2.12 (1.50) times higher than in afternoons (afternons and mornings), with all other covariates held constant;
-* The odds of perception of excessive sleepiness in **mornings** are 1.36 times higher than in afternoons, with all other covariates held constant;
-* The odds of perception of excessive (severe) sleepiness (fatigue) in **evenings** are 1.58 (1.38) times higher than in afternoons (afternoons and mornings), with all other covariates held constant;
-* The odds of perception of excessive (severe) sleepiness (fatigue) in **nights** are 4.23 (2.60) times higher than in afternoons (afternoons and mornings), with all other covariates held constant.
+* The odds of perception of excessive (severe) sleepiness (fatigue) in **early-mornings** are 2.12 (1.50) times higher than in **afternoons (afternons and mornings)**, with all other covariates held constant;
+* The odds of perception of excessive sleepiness in **mornings** are 1.36 times higher than in **afternoons**, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) in **evenings** are 1.58 (1.38) times higher than in **afternoons (afternoons and mornings)**, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) in **nights** are 4.23 (2.60) times higher than in **afternoons (afternoons and mornings)**, with all other covariates held constant.
 
 <br/>
 
@@ -51,6 +51,21 @@ Over recent decades, growing concerns about labour-life quality and health have 
 * For **travel time home to work**, there is an 26% [OR=1.26] (16% [OR=1.16]) increase in the odds of perception excessive (severe) sleepiness (fatigue) in individuals that take 1 hour more to travel from home to work compared to any travel time home to work baseline, with all other covariates held constant;
 * For **flight hours**, there is an 9% [OR=1.09] (8% [OR=1.08]) increase in the odds of perception excessive (severe) sleepiness (fatigue) in individuals with 1,000 more flight hours compared to any flight hours baseline, with all other covariates held constant;
 * For **sleep duration before the workload**, there is an 22% [OR=1.22] (13% [OR=1.13]) increase in the odds of perceiving excessive (severe) sleepiness (fatigue) in individuals who slept 1 hour less compared to any sleep duration baseline, with all other covariates held constant.
+
+<br/>
+
+* The odds of perception of excessive (severe) sleepiness (fatigue) for **workloads comprehending night periods** are 1.52 (1.34) times higher than **other workload modalities**, with all other covariates held constant;
+
+### For time-invariant covariates
+
+* The odds of perception of excessive (severe) sleepiness (fatigue) for **co-pilots** are 2.97 (1.59) times higher than for **commanders**, with all other covariates held constant;
+* The odds of perception of excessive sleepiness for **singles** are 2.03 times higher than for **married** participants, with all other covariates held constant;
+* The odds of perception of excessive (severe) sleepiness (fatigue) for **individuals without higher education** are 2.04 (1.62) times higher than for individuals **with higher education**, with all other covariates held constant;
+* The odds of perception of excessive sleepiness for **chronotypes vespertines** are 2.90 (2.58) higher than for **chronotypes matutines or intermediaries**, with all other covariates held constant;
+
+ <br/>
+
+* For **age**, there is an 41% [OR=1.41] increase in the odds of perceiving severe fatigue in individuals 10 years younger compared to any age baseline, with all other covariates held constant.
 
 ---
 
