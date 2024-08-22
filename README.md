@@ -32,8 +32,8 @@ Over recent decades, growing concerns about labour-life quality and health have 
 ## Main Results
 
 <p float="left">
-  <img src="/figures/sleepiness_coeffs_odds.png" width="250" />
-  <img src="/figures/fatigue_coeffs_odds.png" width="250" /> 
+  <img src="/figures/sleepiness_coeffs_odds.png" width="350" />
+  <img src="/figures/fatigue_coeffs_odds.png" width="350" /> 
 </p>
 
 ---
