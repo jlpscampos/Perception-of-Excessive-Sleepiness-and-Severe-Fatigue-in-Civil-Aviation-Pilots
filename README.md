@@ -32,8 +32,8 @@ Conducted longitudinally on 48 participants between the summer and autumn of 202
 ## Main Results
 
 <p float="left">
-  <img src="/figures/sleepiness_coeffs_odds.png" width="350" />
-  <img src="/figures/fatigue_coeffs_odds.png" width="350" /> 
+  <img src="/figures/sleepiness_coeffs_odds.png" width="400" />
+  <img src="/figures/fatigue_coeffs_odds.png" width="400" /> 
 </p>
 
 ---
