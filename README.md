@@ -37,7 +37,7 @@ The study was conducted longitudinally on 48 participants between the summer and
   <img src="/figures/fatigue_coeffs_odds.png" width="400" /> 
 </p>
 
-The figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant.
+The figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant. Orange bars represent 95% confidence bounds.
 
 ---
 
