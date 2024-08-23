@@ -43,7 +43,7 @@ The figures above show the coefficients obtained from regression analysis repres
 
 ## Model Description
 
-The binomial model can be described as:
+The binomial mixed model with logistic link can be described as:
 
 $$ g(x_{ij},\beta_{0i},\beta_{s}) = \beta_{0i}+\boldsymbol{x_{ij}^{\prime}}\\boldsymbol{\beta_s} $$
 
