@@ -25,20 +25,41 @@ This project aims to contribute to the understanding of work and personal relate
 
 ## Detailing
 
-Conducted longitudinally on 48 participants between the summer and autumn of 2022, pilots self-reported their perceived sleepiness and fatigue using the Karolinska and Sam-Perelli scales, respectively. Time varying metrics obtained from punch clock, actimetry and sleep diaries and time invariant metrics such as sociodemographic data and chronotype were taken. Employing cluster-specific binomial models with logistic link, we found that duties comprehending periods outside the circadian time (Early-Start and Night periods), longer workloads, many hours awake before the start of duty and sleep deprivation are the main enhancement factors for percecption of excessive/severe sleepiness and fatigue, marriage and pilots that have better work performance at morning (chronotypes matutines) are protection factors. Tailored interventions and potential regulatory adjustments are crucial for pilots’ well-being in order to avoid labour risks associated to sleepiness and fatigue.
+The study was conducted longitudinally on 48 participants between the summer and autumn of 2022, the participants self-reported their perceived sleepiness and fatigue using the Karolinska and Sam-Perelli scales, respectively at start, middle and end of duty periods. Time varying metrics were obtained from punch clock, actimetry and sleep diaries and time invariant metrics such as sociodemographic data and chronotype were obtained through questionnaries. By employing cluster-specific binomial models with logistic link, we found that duties comprehending periods outside the circadian time (Early-Start and Night periods), longer workloads, many hours awake before the start of duty and sleep deprivation are the main enhancement factors for percecption of excessive/severe sleepiness/fatigue, marriage and pilots that have better general work performance at mornings (chronotypes matutines) are found to be protection factors. Tailored interventions and potential regulatory adjustments are crucial for pilots’ well-being in order to avoid labour risks associated to sleepiness and fatigue.
 
 ---
 
 ## Main Results
+
 
 <p float="left">
   <img src="/figures/sleepiness_coeffs_odds.png" width="400" />
   <img src="/figures/fatigue_coeffs_odds.png" width="400" /> 
 </p>
 
+The figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant.
+
 ---
 
 ## Model Description
+
+The binomial model can be described as:
+
+$$ g(x_{ij},\beta_{0i},\beta_{s}) = \beta_{0i}+\boldsymbol{x_{ij}^{\prime}}\\boldsymbol{\beta_s} $$
+
+$$ \beta_{0i} = \beta_0 + \alpha_i $$
+
+$$ \alpha_i \sim N(0,\sigma_{\alpha}^{2}) $$
+
+where $\beta_0$ is the intercept and $\alpha_i$ is the random intercept due to participant clusters.
+
+The logistic link function is given by:
+
+$$  g(x_{ij},\beta_{0i},\beta_{s}) = ln\left[\frac{\pi(x_{ij},\cdot)}{1-\pi(x_{ij},\cdot)}\right] $$
+
+with,
+
+$$ \pi(x_{ij},\cdot) = \frac{e^{\beta_{0i}+\boldsymbol{x_{ij}^{\prime}}\\boldsymbol{\beta_s}}}{1+e^{\beta_{0i}+\boldsymbol{x_{ij}^{\prime}}\\boldsymbol{\beta_s}}} $$
 
 ---
 
