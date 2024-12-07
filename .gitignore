@@ -1,0 +1,5 @@
+# Ignore Jupyter Notebook checkpoint files
+*.ipynb_checkpoints/
+
+# Ignore csv files
+*.csv
