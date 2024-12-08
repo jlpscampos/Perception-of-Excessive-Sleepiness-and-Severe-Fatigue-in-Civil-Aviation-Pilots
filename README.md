@@ -23,6 +23,14 @@ This project aims to contribute to the understanding of work and personal relate
 
 ---
 
+## What is different?
+
+Most of studies with the scope of perceptions of sleepiness and/or fatigue using the scales aforementioned, treat the response variables like continuous variables do not considering their ordinal nature.
+Here due to the scarcity of observations and inspired in the versatility and easy interpretability of binomial models, we transform the scales mentioned into binary outcomes denoting extreme conditions
+of the quantities leading to more quantitative and representative results.
+
+---
+
 ## Detailing
 
 Civil aviation pilots are one of professionals with the most irregular work scale, in order to quantify their labour risk, the present study was conducted longitudinally on 48 participants between the austral summer and autumn of 2022, wherein each participant self-reported their perceived sleepiness and fatigue using the Karolinska and Sam-Perelli scales, respectively at start, middle and end of duty periods. Both the perceived excessive sleepiness and perceived severe fatigue are used as a proxy for pilots' labour risk. Time varying metrics were obtained from punch clock, actimetry and sleep diaries and time invariant metrics such as sociodemographic data and chronotype were obtained through application of questionnaries. The perception of sleepiness and fatigue were collected together using google questionnaires. More than 30 features were analysed and engineered. By employing cluster-specific binomial models with logistic link, we found that duties comprehending periods outside the circadian time (hours outside business hours, Early-Start and Night periods), longer workloads, many hours awake before the start of duty and sleep deprivation are the main enhancement factors for percecption of excessive/severe sleepiness/fatigue. Pilots that have better general work performance at mornings (chronotypes matutines) and pilots in stable union are found to be protection factors. Tailored interventions and potential regulatory adjustments are crucial for pilots’ well-being in order to avoid labour risks associated to sleepiness and fatigue.
