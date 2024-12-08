@@ -25,7 +25,7 @@ This project aims to contribute to the understanding of work and personal relate
 
 ## Detailing
 
-Civil aviation pilots are one of professionals with the most irregular work scale, in order to quantify their labour risk, the present study was conducted longitudinally on 48 participants between the austral summer and autumn of 2022, wherein the participants self-reported their perceived sleepiness and fatigue using the Karolinska and Sam-Perelli scales, respectively at start, middle and end of duty periods. Both the perceived excessive sleepiness and perceived severe fatigue are used as a proxy for pilots' labour risk. Time varying metrics were obtained from punch clock, actimetry and sleep diaries and time invariant metrics such as sociodemographic data and chronotype were obtained through questionnaries, more than 30 features were analysed and engineered. By employing cluster-specific binomial models with logistic link, we found that duties comprehending periods outside the circadian time (hours outside business hours, Early-Start and Night periods), longer workloads, many hours awake before the start of duty and sleep deprivation are the main enhancement factors for percecption of excessive/severe sleepiness/fatigue. Pilots that have better general work performance at mornings (chronotypes matutines) and pilots in stable union are found to be protection factors. Tailored interventions and potential regulatory adjustments are crucial for pilots’ well-being in order to avoid labour risks associated to sleepiness and fatigue.
+Civil aviation pilots are one of professionals with the most irregular work scale, in order to quantify their labour risk, the present study was conducted longitudinally on 48 participants between the austral summer and autumn of 2022, wherein each participant self-reported their perceived sleepiness and fatigue using the Karolinska and Sam-Perelli scales, respectively at start, middle and end of duty periods. Both the perceived excessive sleepiness and perceived severe fatigue are used as a proxy for pilots' labour risk. Time varying metrics were obtained from punch clock, actimetry and sleep diaries and time invariant metrics such as sociodemographic data and chronotype were obtained through application of questionnaries. The perception of sleepiness and fatigue were collected together using google questionnaires. More than 30 features were analysed and engineered. By employing cluster-specific binomial models with logistic link, we found that duties comprehending periods outside the circadian time (hours outside business hours, Early-Start and Night periods), longer workloads, many hours awake before the start of duty and sleep deprivation are the main enhancement factors for percecption of excessive/severe sleepiness/fatigue. Pilots that have better general work performance at mornings (chronotypes matutines) and pilots in stable union are found to be protection factors. Tailored interventions and potential regulatory adjustments are crucial for pilots’ well-being in order to avoid labour risks associated to sleepiness and fatigue.
 
 ---
 
@@ -37,7 +37,31 @@ Civil aviation pilots are one of professionals with the most irregular work scal
   <img src="/figures/fatigue_coeffs_odds.png" width="400" /> 
 </p>
 
-The figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant and the orange bars represent 95% confidence bounds.
+The figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant and the orange bars represent 95% confidence bounds. The baselines for "duty period" is the start of duty, for "hours" is business hours defined as times between 08:00 - 23:59, for "matutine chronotype" is intermediaries and vespertine chronotypes and for "matutines and intermediaries chronotypes" the baseline is vespertine chronotype. 
+
+* The more prone individual in the study has 2.29 times more odds to perceive severe fatigue than the less prone.
+
+* The more prone individual in the study has 2.09 times more odds to perceive excessive sleepiness than the less prone.
+
+---
+
+## Models Metrics
+
+### Perception of Excessive Sleepiness
+
+<p float="left">
+  <img src="/figures/sleepiness_model_performance.png" width="800" />
+</p>
+
+Above is shown the performance analysis for the model used to assess the perception of severe sleepiness. Once the objective is only to study the effects of covariates in the perception of excessive sleepiness and fatigue, the Area Under the Curve (AUC) is sufficient for this purpose. As we can see the AUC value is 0.85, following Hosmer & Lemeshow (2013), this can be considered a good discrimator and a satisfactory model.
+
+### Perception of Severe Fatigue
+
+<p float="left">
+  <img src="/figures/fatigue_model_performance.png" width="800" />
+</p>
+
+For the model to assess the perception of severe sleepiness, it is found the AUC with value of 0.93, following Hosmer & Lemeshow (2013) it can be considered an outstanding discriminator and a satisfactory model.
 
 ---
 
