@@ -59,7 +59,7 @@ The figures above show the coefficients obtained from regression analysis repres
   <img src="/figures/sleepiness_model_performance.png" width="800" />
 </p>
 
-Above is shown the performance analysis for the model used to assess the perception of severe sleepiness. Once the objective is only to study the effects of covariates in the perception of excessive sleepiness and fatigue, the Area Under the Curve (AUC) is sufficient for this purpose. As we can see the AUC value is 0.85, following Hosmer & Lemeshow (2013), this can be considered a good discrimator and a satisfactory model.
+Above is shown the performance analysis for the model used to assess the perception of severe sleepiness. Once the objective is only to study the effects of covariates in the perception of excessive sleepiness and fatigue, the Area Under the Curve (AUC) is enough for this purpose. As we can see the AUC value is 0.85, following Hosmer & Lemeshow (2013), this can be taken as a good discrimator and a satisfactory model.
 
 ### Perception of Severe Fatigue
 
@@ -67,7 +67,7 @@ Above is shown the performance analysis for the model used to assess the percept
   <img src="/figures/fatigue_model_performance.png" width="800" />
 </p>
 
-For the model to assess the perception of severe sleepiness, it is found the AUC with value of 0.93, following Hosmer & Lemeshow (2013) it can be considered an outstanding discriminator and a satisfactory model.
+For the model to assess the perception of severe sleepiness, it is found the AUC with value of 0.93, following Hosmer & Lemeshow (2013) it can be taken as an outstanding discriminator and a satisfactory model.
 
 ---
 
