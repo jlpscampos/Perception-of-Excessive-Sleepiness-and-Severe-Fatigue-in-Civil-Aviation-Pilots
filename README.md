@@ -25,7 +25,7 @@ This project aims to contribute to the understanding of work and personal relate
 
 ## Why this project is worth?
 
-Most psychometric studies focusing on the perceptions of sleepiness and/or fatigue using the aforementioned scales treat the response variables as continuous, overlooking their ordinal nature. Due to the scarcity of observations and inspired by the versatility and easy interpretability of binomial models, we have transformed these scales into binary outcomes that denote extreme conditions of the variables. This approach leads to more quantitative and representative results.
+Most psychometric studies focusing on perceptions of sleepiness and/or fatigue using the aforementioned scales treat the response variables as continuous, overlooking their ordinal nature. Given the scarcity of observations and inspired by the versatility and easy interpretability of binomial models, we have transformed these scales into binary outcomes that denote extreme conditions of the variables. This approach yields more quantitative and representative results.
 
 ---
 
