@@ -45,9 +45,9 @@ Civil aviation pilots are one of professionals with the most irregular work scal
 
 The figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant and the orange bars represent 95% confidence bounds. The baselines for "duty period" is the start of duty, for "hours" is business hours defined as times between 08:00 - 23:59, for "matutine chronotype" is intermediaries and vespertine chronotypes and for "matutines and intermediaries chronotypes" the baseline is vespertine chronotype. 
 
-* The more prone individual in the study has 2.29 times more odds to perceive severe fatigue than the less prone.
+* The more prone individual in the study has 2.29 times more odds to perceive severe fatigue than the less prone one.
 
-* The more prone individual in the study has 2.09 times more odds to perceive excessive sleepiness than the less prone.
+* The more prone individual in the study has 2.09 times more odds to perceive excessive sleepiness than the less prone one.
 
 ---
 
