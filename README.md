@@ -40,6 +40,26 @@ Participants have **0.49 (0.38, 0.63)** times the odds—equivalently, 51% (62%,
 >- **Awake for more than 10 hours before the workshift:**
 Participants have **2.1 (1.1, 4.2)** times the odds of perceiving excessive sleepiness compared with those awake ≤10 hours, holding all other covariates constant.
 
+### Perception of Severe Fatigue
+
+>- **End of the workshift:**
+Participants have **25 (12, 53)** times the odds of perceiving severe fatigue compared with the start and middle of the workshift, holding all other covariates constant.
+>
+>- **Work routines including the Night period (00:00–05:00):**
+Participants have **3.4 (1.8, 6.6)** times the odds of perceiving severe fatigue compared with routines that do not include this period, holding all other covariates constant.
+>
+>- **Every additional 2 hours of work:**
+The odds of perceiving severe fatigue increase by a factor of **2.1 (1.5, 2.8)** for each additional 2 hours worked, relative to any baseline, holding all other covariates constant.
+>
+>- **Higher perceived sleep quality before the workshift:**
+Participants have **0.37 (0.25, 0.55)** times the odds—equivalently, 63% (75%, 45%) lower odds—of perceiving severe fatigue compared with the reference sleep-quality level, holding all other covariates constant.
+>
+>- **Middle-career individuals (ages 35–45):**
+Participants in this age range have **3.2 (1.3, 7.9)** times the odds of perceiving severe fatigue compared with younger and older professionals, holding all other covariates constant.
+>
+>- **Awake for more than 10 hours before the workshift:**
+Participants have **9.0 (3.8, 21.0)** times the odds of perceiving severe fatigue compared with those awake ≤10 hours, holding all other covariates constant.
+
 ---
 
 ## Model Description
