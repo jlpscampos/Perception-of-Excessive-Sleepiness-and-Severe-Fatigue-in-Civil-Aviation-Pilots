@@ -12,10 +12,39 @@ Severe fatigue and excessive sleepiness are critical safety concerns in civil av
 </p>
 
 ---
+## Quantification
+
+### Perception of Excessive Sleepiness
+
+>- **Early-Morning and Evening periods:**
+Participants have **3.0 (1.9, 4.8)** times the odds of perceiving excessive sleepiness compared with the Afternoon period, holding all other covariates constant.
+>
+>- **Night period:**
+Participants have **4.5 (2.5, 8.1)** times the odds of perceiving excessive sleepiness compared with the Afternoon period, holding all other covariates constant.
+>
+>- **Middle of the workshift:**
+Participants have **3.3 (2.9, 3.6)** times the odds of perceiving excessive sleepiness compared with the start of the workshift, holding all other covariates constant.
+>
+>- **End of the workshift:**
+Participants have **13.3 (7.7, 23.3)** times the odds of perceiving excessive sleepiness compared with the start of the workshift, holding all other covariates constant.
+>
+>- **Workshifts including the Night period (00:00–05:00):**
+Participants have **1.8 (1.2, 2.8)** times the odds of perceiving excessive sleepiness compared with workshifts that do not include this period, holding all other covariates constant.
+>
+>- **Sleep duration > 5 hours before the workshift:**
+Participants have **0.49 (0.30, 0.80)** times the odds—equivalently, 51% (20%, 70%) lower odds—of perceiving excessive sleepiness compared with those who slept ≤5 hours, holding all other covariates constant.
+>
+>- **Higher perceived sleep quality before the workshift:**
+Participants have **0.49 (0.38, 0.63)** times the odds—equivalently, 51% (62%, 37%) lower odds—of perceiving excessive sleepiness compared with the reference sleep-quality level, holding all other covariates constant.
+>
+>- **Awake for more than 10 hours before the workshift:**
+Participants have **2.1 (1.1, 4.2)** times the odds of perceiving excessive sleepiness compared with those awake ≤10 hours, holding all other covariates constant.
+
+---
 
 ## Model Description
 
-The binomial mixed model with logistic link can be described as:
+The mixed-effects binomial model with logistic link can be described as:
 
 $$ g(x_{ij},\beta_{0i},\beta_{s}) = \beta_{0i}+\boldsymbol{x_{ij}^{\prime}}\\boldsymbol{\beta_s} $$
 
