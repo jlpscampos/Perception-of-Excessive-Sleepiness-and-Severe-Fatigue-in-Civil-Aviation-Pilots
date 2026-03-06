@@ -2,72 +2,14 @@
 
 <p style="text-align: center;"> <img src="https://img.shields.io/badge/python 3-pymer4-blue?logo=SimpleIconName&logoColor=ColorName&style=ShieldStyle" /> <img src="https://img.shields.io/badge/python 3-pandas-darkblue?logo=SimpleIconName&logoColor=ColorName&style=ShieldStyle" /> <img src="https://img.shields.io/badge/python 3-numpy-darkgreen?logo=SimpleIconName&logoColor=ColorName&style=ShieldStyle" /> <img src="https://img.shields.io/badge/python 3-seaborn-green?logo=SimpleIconName&logoColor=ColorName&style=ShieldStyle" /> <img src="https://img.shields.io/badge/python 3-matplotlib-lightblue?logo=SimpleIconName&logoColor=ColorName&style=ShieldStyle" /> <img src="https://img.shields.io/badge/python 3-Jupyter-orange?logo=SimpleIconName&logoColor=ColorName&style=ShieldStyle" /> </p>
 
-This study assess the relationship between irregular duty periods and labour risk using the self reported perception of sleepiness and fatigue as proxies, through the [Karolinska Sleepiness Scale](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5511283/), and the [Sam-Perelli Fatigue Scale](https://psycnet.apa.org/record/2017-30931-005), respectively at the beginning, middle and end of duty periods or workloads. The study was carried out longitudinally over two semesters and it was evaluated using a cluster-specific binomial model with logistic link.
+## What factors influence the perception of extreme conditions of fatigue and sleepiness?
 
-
-This repository includes:
-
-* Data: Raw data collected from pilot surveys, actimetry, and other sources (upon request).
-* Code: Scripts for data cleaning, analysis, and visualization using relevant Python libraries.
-* Analysis: Reports and documentation detailing the methodology, results, and conclusions.
-* Jupyter Notebooks: Interactive python Markdown documents for exploring the data and results.
-
-The Jupyter Notebooks follows the order:
-
-* Data preparation, feature extratction and data cleaning [feature_engineering.ipynb](feature_engineering.ipynb)
-* Exploratory Data Analysis [EDA.ipynb](Exploratory_Data_Analysis.ipynb)
-* Results related to perception of sleepiness [regression_sleepiness.ipynb](regression_sleepiness_2.ipynb)
-* Results related to perception of fatigue [regression_fatigue.ipynb](regression_fatigue.ipynb)
-
-This project aims to contribute to the understanding of work and personal related factors leading to perception of excessive/severe sleepiness/fatigue in civil aviation pilots.
-
----
-
-## Why this project is worth?
-
-Most psychometric studies focusing on perceptions of sleepiness and/or fatigue using the aforementioned scales treat the response variables as continuous, overlooking their ordinal nature. Given the scarcity of observations and inspired by the versatility and easy interpretability of binomial models, we have transformed these scales into binary outcomes that denote extreme conditions of the variables. This approach yields more quantitative and representative results.
-
----
-
-## Detailing
-
-Civil aviation pilots are one of professionals with the most irregular work scale, in order to quantify their labour risk, the present study was conducted longitudinally on 48 participants between the austral summer and autumn of 2022, wherein each participant self-reported their perceived sleepiness and fatigue using the Karolinska and Sam-Perelli scales, respectively at start, middle and end of duty periods. Both the perceived excessive sleepiness and perceived severe fatigue are used as a proxy for pilots' labour risk. Time varying metrics were obtained from punch clock, actimetry and sleep diaries and time invariant metrics such as sociodemographic data and chronotype were obtained through application of questionnaries. The perception of sleepiness and fatigue were collected together using google questionnaires. More than 30 features were analysed and engineered. By employing cluster-specific binomial models with logistic link, we found that duties comprehending periods outside the circadian time (hours outside business hours, Early-Start and Night periods), longer workloads, many hours awake before the start of duty and sleep deprivation are the main enhancement factors for percecption of excessive/severe sleepiness/fatigue. Pilots that have better general work performance at mornings (chronotypes matutines) and pilots in stable union are found to be protection factors. Tailored interventions and potential regulatory adjustments are crucial for pilots’ well-being in order to avoid labour risks associated to sleepiness and fatigue.
-
----
-
-## Main Results
-
+Severe fatigue and excessive sleepiness are critical safety concerns in civil aviation, and their contributing factors are multifactorial and interdependent. This study investigated how personal characteristics, sleep‑related behaviors, and work‑routine conditions shape pilots’ perceptions of severe fatigue and excessive sleepiness during irregular duty periods. Over a six‑month period, 48 pilots repeatedly reported their levels of sleepiness and fatigue at the start, middle, and end of workshifts using the Karolinska Sleepiness Scale and the Samn–Perelli Fatigue Scale. More than 30 features were derived from participant questionnaires and operational data. Two mixed‑effects logistic regression models were used to quantify the influence of time awake, sleep quality, sleep duration, age, duty timing, and workshift progression on fatigue‑ and sleepiness‑related perceptions. Work‑related factors—particularly reaching the end of a duty period, operating during the night window (00:00–05:00), and longer duty duration—substantially increased the odds of reporting severe fatigue or excessive sleepiness. Personal factors such as being awake for more than 10 hours and being in the mid‑career age range also elevated risk. In contrast, higher perceived sleep quality and sleeping more than five hours before duty were protective. These findings highlight the need for fatigue‑risk management strategies that integrate both individual sleep behaviors and structural characteristics of duty schedules.
 
 <p float="left">
-  <img src="/figures/sleepiness_coeffs_odds.png" width="400" />
-  <img src="/figures/fatigue_coeffs_odds.png" width="400" /> 
+  <img src="/figures/04.coefs_odds.png" width="400" />
+  <img src="/figures/05.coefs_odds.png" width="400" /> 
 </p>
-
-Figures above show the coefficients obtained from regression analysis represented as odds ratio, each effect may be interpreted as the effect of covariate keeping all other covariates constant and the orange bars represent 95% confidence bounds. The baselines for "duty period" is the start of duty, for "hours" is business hours defined as times between 08:00 - 23:59, for "matutine chronotype" is intermediaries and vespertine chronotypes and for "matutines and intermediaries chronotypes" the baseline is vespertine chronotype. 
-
-* The more prone individual in the study has 2.29 times more odds to perceive severe fatigue than the less prone one.
-
-* The more prone individual in the study has 2.09 times more odds to perceive excessive sleepiness than the less prone one.
-
----
-
-## Models Assessment
-
-### Perception of Excessive Sleepiness
-
-<p float="left">
-  <img src="/figures/sleepiness_model_performance.png" width="800" />
-</p>
-
-Above is shown the performance analysis for the model used to assess the perception of severe sleepiness. Once the objective is only to study the effects of covariates in the perception of excessive sleepiness and fatigue, the Area Under the Curve (AUC) is enough for this purpose. As we can see the AUC value is 0.85, following Hosmer & Lemeshow (2013), this can be taken as a good discrimator and a satisfactory model.
-
-### Perception of Severe Fatigue
-
-<p float="left">
-  <img src="/figures/fatigue_model_performance.png" width="800" />
-</p>
-
-For the model to assess the perception of severe sleepiness, it is found the AUC with value of 0.93, following Hosmer & Lemeshow (2013) it can be taken as an outstanding discriminator and a satisfactory model.
 
 ---
 
